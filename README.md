@@ -231,8 +231,6 @@ kubectl get crds | grep cert-manager
 ```
 
 ## MetalLB
-- [Documentazione qui](MetalLB/README.md)
-
 ### Installazione con Helm
 ```bash
 # Aggiungi il repository Helm di MetalLB
@@ -358,8 +356,6 @@ NAME            TYPE           CLUSTER-IP      EXTERNAL-IP     PORT(S)
 istio-ingress   LoadBalancer   x.x.x.x         x.x.x.x         15021:30268/TCP,80:31240/TCP,443:32410/TCP
 ```
 
-
-
 ## Kompose
 ### 🔹 Installation
 
@@ -378,7 +374,7 @@ kompose version
 ## 🚀 S4T - Stack4Things Deployment
 
 Questa guida descrive come clonare, configurare e avviare **Stack4Things** su Kubernetes.
-## 📌 **1. .zip**  -- OPZIONE 2 DISPONIBILE
+## 📌 **1. .zip** 
 ### 📂 Contenuto della Cartella S4T
 
 All'interno della cartella troverai:
