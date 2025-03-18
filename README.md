@@ -8,17 +8,15 @@ Di seguito sonno fornite diverse guide:
 | **K3s Deployment Guide** | **Steps**                                 |
 |--------------------------|-------------------------------------------|
 | 📁 **K3s-S4T Rapid Setup ⚡** | 1. 🚀 Installazione di K3s             |
-|                          | 2. 🔗 Clonazione S4T - OPZIONE2           |
-|                          | 3. 🔄 Conversione YAML (Kompose) - none   |
-|                          | 4. 📌 Deploy su Kubernetes                |
-|                          | 5. ✅ Verifica dei Pod e dei Servizi      |
+|                          | 2. 🔗 Clonazione S4T            |
+|                          | 3. 📌 Deploy su Kubernetes                |
+|                          | 4. ✅ Verifica dei Pod e dei Servizi      |
 |                          |                                           |
 | 📁 **K3s-Calico-MetalLB-Istio-S4T Multi-Cluster Setup** | 1. ⚙️ Installazione di K3s (senza Traefik) |
 |                          | 2. 🌐 Configurazione di Calico            |
 |                          | 3. 📡 Setup di MetalLB                    |
 |                          | 4. 🚀 Deploy di Istio                    |
-|                          | 5. 🔗 Clonazione S4T - OPZIONE2           |
-|                          | 6. 🔄 Conversione YAML (Kompose) - none   |
+|                          | 5. 🔗 Clonazione S4T        |
 |                          | 7. 📌 Deploy su Kubernetes                |
 |                          | 8. ✅ Verifica dei Pod e dei Servizi      |
 
