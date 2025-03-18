@@ -406,8 +406,9 @@ kubectl get pods
 kubectl get svc
 ```
 
-### 🛠 4. Creazione del Gateway e VirtualService per Istio -- VALIDO PER ENTRAMBE LE OPZIONI
+### 🛠 4. Creazione del Gateway e VirtualService per Istio
 - 📁 Definizione file yaml [qui](./S4T/istioconf)
+- ⚠️ **Importante:** Nel caso in cui si stia seguendo la guida rapida provae con gli IP interni.
 
 Creiamo una cartella per i file di configurazione di Istio:
 ```bash
