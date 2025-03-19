@@ -251,7 +251,7 @@ Creazione del file di configurazione per Layer 2:
 echo "Apri il file di configurazione: https://github.com/AsCd1/K3s-Configuration/blob/main/MetalLB/metallb-configuration.yaml"
 nano metallb-configuration.yaml
 ```
-⚠️ **Importante:** Durante l'applicazione della configurazione si è verificato un errore risolto con un secondo apply:
+⚠️ **Importante:** Durante l'applicazione **della configurazione con helm** si è verificato un errore risolto con un secondo apply:
 - Creazione del file [L2Advertisement](./MetalLB/l2advertisement.yaml) separato.
 ```bash
 nano l2advertisement.yaml
