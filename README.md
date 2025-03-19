@@ -231,7 +231,7 @@ kubectl get crds | grep cert-manager
 ```
 
 ## MetalLB
-### Installazione con Helm
+### Installazione con Helm -- Problematica
 ```bash
 # Aggiungi il repository Helm di MetalLB
 helm repo add metallb https://metallb.github.io/metallb
@@ -239,7 +239,11 @@ helm repo add metallb https://metallb.github.io/metallb
 # Installa MetalLB
 helm install metallb metallb/metallb
 ```
-
+### Installazione Manuale -- Consigliata
+Se preferisci installare MetalLB senza Helm, puoi applicare direttamente i manifest ufficiali:
+```bash
+kubectl apply -f https://raw.githubusercontent.com/metallb/metallb/v0.13.10/config/manifests/metallb-native.yaml
+```
 ### Configurazione Layer2
 Creazione del file di configurazione per Layer 2:
 - [metallb-configuration](./MetalLB/metallb-configuration.yaml)
